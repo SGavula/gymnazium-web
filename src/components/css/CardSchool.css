@@ -1,0 +1,15 @@
+.CardSchool {
+    width: 20%;
+    height: 50vh;
+    background-color: rgb(124, 124, 253);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+img {
+    width: 30%;
+}

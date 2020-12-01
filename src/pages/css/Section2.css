@@ -1,0 +1,26 @@
+.Section2 {
+    background-color: DeepSkyBlue;
+    color: #fff;
+}
+
+.Section2 h2 {
+    padding: 20px 0;
+    border-bottom: 2px solid #fff;
+    width: 90%;
+    margin: auto;
+    font-size: 3vw;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Section2 button {
+    font-size: 1vw;
+    width: 20%;
+    display: block;
+    margin: auto;
+    outline: none;
+}
