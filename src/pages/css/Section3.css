@@ -1,0 +1,12 @@
+.Section3 {
+    padding: 10vh 0;
+}
+
+.Section3 h2 {
+    color: #282977;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #282977;
+    width: 90%;
+    margin: auto;
+    font-size: 3vw;
+}

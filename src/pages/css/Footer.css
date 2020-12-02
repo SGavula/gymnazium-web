@@ -1,0 +1,15 @@
+.Footer {
+    background-color: #DCE6EF;
+    color: #282977;
+    text-align: right;
+    padding-top: 3vh;
+}
+
+.Footer h2 {
+    color: #282977;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #282977;
+    width: 90%;
+    margin: auto;
+    font-size: 3vw;
+}
