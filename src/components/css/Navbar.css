@@ -2,9 +2,15 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 20px;
 }
 
 .image {
     width: 5%;
     height: auto;
+}
+
+.Navbar i {
+    font-size: 1.5vw;
+    padding: 0 10px;
 }

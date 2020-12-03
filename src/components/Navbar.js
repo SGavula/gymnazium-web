@@ -6,8 +6,8 @@ function Navbar() {
     <div className="Navbar">
       <img className="image" src="img/logo.svg" alt="" />
       <div>
-        <i class="fas fa-bars"></i>
-        <i class="fas fa-search"></i>
+        <i className="fas fa-search "></i>
+        <i className="fas fa-bars"></i>
       </div>
     </div>
   );

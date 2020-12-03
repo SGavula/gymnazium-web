@@ -4,7 +4,7 @@ import "./css/HeroSection.css";
 function Hero() {
   return (
     <div className="Hero">
-        <div>
+        <div className="Heading">
             <h1>Vitajte na stránkách Gymnázia Nad Štolou</h1>
             <p>„Studium před zlatem"</p>   
         </div>

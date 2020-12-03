@@ -1,10 +1,24 @@
 .Hero {
     width: 100%;
-    height: 90%;
+    height: 85%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    text-align: center;
+}
+
+.Heading {
+    padding: 5vh 0;
+}
+
+.Heading h1 {
+    font-size: 3vw;
+    padding: 20px 0;
+}
+
+.Heading p {
+    font-size: 2vw;
 }
 
 .Wrapper-down {
@@ -15,8 +29,9 @@
 
 .Wrapper-down li {
     list-style: none;
-    padding-right: 50px;
+    padding-right: 2.5vw;
     border-right: 1px solid white;
+    font-size: 1.3vw;
 }
 
 .Wrapper-down li:last-child {
