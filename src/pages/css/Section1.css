@@ -24,9 +24,32 @@ button {
     width: 30%;
     padding: 2vh 0;
     background-color: #282977;
-    border-color: #282977;;
+    border-color: #282977;
     border-radius: 50px;
     font-size: 1.5vw;
     color: white;
     outline: none;
+}
+
+.Section1 .bTybGL {
+    color: #282977 !important;
+}
+
+.Section1 .kyJvRZ {
+    color: #282977 !important;
+}
+
+@media(max-width: 800px) {
+    .Section1 h2 {
+        font-size: 25px;
+    }
+
+    .Cards {
+        display: none;
+    }
+
+    button {
+        width: 80%;
+        font-size: 20px;
+    }
 }

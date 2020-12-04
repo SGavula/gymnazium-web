@@ -1,4 +1,5 @@
 import React, {useState} from "react";
+import Carousel from 'react-elastic-carousel';
 import MoreBtn from "./MoreBtn";
 import Section2Card from "./Section2Card";
 import "./css/Akcie.css";
@@ -13,11 +14,17 @@ function Akcie() {
     return (
         <div className="Akcie">
             <h2>Nadchazející akce</h2>
-            <div className="row">
-            {items.map(item => (
+            <div className="Row">
+                {items.map(item => (
                    <Section2Card key={item.id} title={item.title} text={item.text} /> 
                 ))}
             </div>
+
+            <Carousel className="Carousel">
+                {items.map(item => (
+                   <Section2Card key={item.id} title={item.title} text={item.text} /> 
+                ))}
+            </Carousel>
             <MoreBtn btnText="Více akcí" />
         </div>
     );

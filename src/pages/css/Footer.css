@@ -13,3 +13,9 @@
     margin: auto;
     font-size: 3vw;
 }
+
+@media(max-width: 800px) {
+    .Footer h2 {
+        font-size: 30px;
+    }
+}

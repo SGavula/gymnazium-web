@@ -3,8 +3,8 @@ import React from "react";
 
 function MoreBtn({btnText}) {
   return (
-    <div className="MoreBtn">
-        <button>{btnText}</button>
+    <div>
+        <button className="MoreBtn">{btnText}</button>
     </div>
   );
 }

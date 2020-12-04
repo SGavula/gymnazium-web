@@ -10,3 +10,9 @@
     margin: auto;
     font-size: 3vw;
 }
+
+@media(max-width: 800px) {
+    .Section3 h2 {
+        font-size: 30px;
+    }
+}

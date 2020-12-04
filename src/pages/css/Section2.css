@@ -11,16 +11,59 @@
     font-size: 3vw;
 }
 
-.row {
+.Row {
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
-.Section2 button {
+.MoreBtn {
     font-size: 1vw;
     width: 20%;
     display: block;
     margin: auto;
     outline: none;
+}
+
+.bTybGL {
+    background: none !important;
+    border: none !important;
+    color: #fff !important;
+    box-shadow: none !important;
+    max-height: none !important;
+}
+
+.kyJvRZ {
+    background: none !important;
+    border: none !important;
+    color: #fff !important;
+    box-shadow: none !important;
+    max-height: none !important;
+}
+
+.bkVSTc {
+    display: none !important;
+}
+
+.Carousel {
+    display: none !important;
+}
+
+@media(max-width: 800px) {
+    .Section2 h2 {
+        font-size: 30px;
+    }
+
+    .MoreBtn {
+        font-size: 20px;
+        width: 80%;
+    }
+
+    .Row {
+        display: none;
+    }
+
+    .Carousel {
+        display: block !important;
+    }
 }

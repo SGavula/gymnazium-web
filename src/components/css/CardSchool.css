@@ -15,10 +15,8 @@
     color: #fff;
     font-size: 2vw;
     background-color: #499FDB;
-    width: 5vw;
-    height: auto;
     border-radius: 100px;
-    padding: 2.5vh 0;
+    padding: 2.5vh 2vw;
 }
 
 .CardSchool h3 {
@@ -31,4 +29,56 @@
 
 img {
     width: 30%;
+}
+
+@media(max-width: 800px) {
+    .CardSchool {
+        width: 80%;
+        box-shadow: none;
+    }
+
+    .Number {
+        font-size: 14px;
+        border-radius: 100px;
+        padding: 10px 15px;
+    }
+    
+
+    .CardSchool h3 {
+        font-size: 16px;
+    }
+    
+    .CardSchool p {
+        font-size: 14px;
+    }
+    
+    img {
+        width: 20%;
+    }
+}
+
+@media(max-width: 600px) {
+    .CardSchool {
+        width: 80%;
+        box-shadow: none;
+    }
+
+    .Number {
+        font-size: 14px;
+        border-radius: 100px;
+        padding: 10px 15px;
+    }
+    
+
+    .CardSchool h3 {
+        font-size: 20px;
+    }
+    
+    .CardSchool p {
+        font-size: 16px;
+    }
+    
+    img {
+        width: 40%;
+    }
 }

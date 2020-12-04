@@ -35,3 +35,21 @@
 .SocialMedia li a {
     color: #282977;
 }
+
+@media(max-width: 800px) {
+    .Contacts {
+        justify-content: center;
+    }
+
+    .Wrapper {
+        width: 50%;
+    }
+
+    .Wrapper h5{
+        font-size: 18px;
+    }
+
+    .SocialMedia {
+        font-size: 20px;
+    }
+}

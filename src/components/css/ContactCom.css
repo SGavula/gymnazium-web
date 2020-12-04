@@ -14,3 +14,9 @@
     font-size: 1.2vw;
     padding-bottom: 5px;
 }
+
+@media(max-width: 800px) {
+    .ContactCom ul li {
+        font-size: 16px;
+    }  
+}

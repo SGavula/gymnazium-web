@@ -13,3 +13,19 @@
 .prague {
     width: 10% !important;
 }
+
+@media(max-width: 800px) {
+    .Flags {
+        display: flex;
+        flex-direction: column;
+    } 
+
+    .Flags img {
+        width: 80%;
+        padding-bottom: 30px;
+    }
+
+    .prague {
+        width: 80% !important;
+    }
+}

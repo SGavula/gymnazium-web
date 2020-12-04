@@ -3,3 +3,9 @@
     height: 100vh;
     color: white;
 }
+
+@media(max-width: 800px) {
+    .Frontpage {
+        height: 750px;
+    }
+}

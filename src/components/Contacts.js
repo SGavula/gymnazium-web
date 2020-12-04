@@ -12,10 +12,10 @@ function Contacts() {
                 <ContactCom name="Adresa" text="Nad Štolou 1, Praha 7" />
                 <ul className="SocialMedia">
                     <li>
-                        <a href="https://ww.facebook.com" target="_blank"><i className="fab fa-facebook-square"></i></a>
+                        <a href="https://ww.facebook.com" target="_blank" rel="noreferrer"><i className="fab fa-facebook-square"></i></a>
                     </li>
                     <li>
-                        <a href="https://www.instagram.com" target="_blank"><i className="fab fa-instagram"></i></a>
+                        <a href="https://www.instagram.com" target="_blank" rel="noreferrer"><i className="fab fa-instagram"></i></a>
                     </li>
                 </ul>
             </div>

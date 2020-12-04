@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Carousel from 'react-elastic-carousel';
 import CardSchool from "../components/CardSchool";
 import "./css/Section1.css";
 
@@ -20,6 +21,13 @@ function Section1() {
               ))
             }
          </div>
+         <Carousel className="Carousel">
+            {
+              items.map(item => (
+                <CardSchool number={item.number} title={item.title} text={item.text} image={item.image} key={item.id}/>
+              ))
+            }
+         </Carousel>
          <button>Jak se stát studentem?</button>
     </div>
   );

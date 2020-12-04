@@ -14,3 +14,14 @@
     font-size: 1.5vw;
     padding: 0 10px;
 }
+
+@media(max-width: 800px) {
+    .image {
+        width: 10%;
+        height: auto;
+    }
+
+    .Navbar i {
+        font-size: 18px;
+    }
+}

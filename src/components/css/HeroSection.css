@@ -37,3 +37,30 @@
 .Wrapper-down li:last-child {
     border: none
 }
+
+@media(max-width: 800px) {
+    .Hero {
+        width: 100%;
+        height: 85%;
+    }
+    
+    .Heading h1 {
+        font-size: 25px;
+    }
+    
+    .Heading p {
+        font-size: 18px;
+    }
+
+    .Wrapper-down {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .Wrapper-down li {
+        padding: 20px 0 0 0;
+        font-size: 16px;
+        border: none;
+    }
+}
