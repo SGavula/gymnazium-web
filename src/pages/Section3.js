@@ -4,7 +4,7 @@ import "./css/Section3.css";
 
 function Section3() {
   return (
-    <div className="Section3">
+    <div className="Section3" id="Section3">
       <h2>Sponzoři</h2>
       <Flags />
     </div>

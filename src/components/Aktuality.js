@@ -11,7 +11,7 @@ function Aktuality() {
         {id: 3, title: "Lorem ipsum", text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent arcu neque, varius id urna placerat, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent arcu neque, varius id urna placerat,"},
       ]);
     return (
-        <div className="Aktuality">
+        <div className="Aktuality" id="Aktuality">
             <h2>Aktuality</h2>
             <div className="Row">
                 {items.map(item => (

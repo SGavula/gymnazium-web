@@ -12,7 +12,7 @@ function Section1() {
   ]);
 
   return (
-    <div className="Section1">
+    <div className="Section1" id="Section1">
          <h2>Čtyři důvody, proč studovat na naší škole</h2>
          <div className="Cards">
             {

@@ -12,7 +12,7 @@ function Akcie() {
       ]);
 
     return (
-        <div className="Akcie">
+        <div className="Akcie" id="Akcie">
             <h2>Nadchazející akce</h2>
             <div className="Row">
                 {items.map(item => (
