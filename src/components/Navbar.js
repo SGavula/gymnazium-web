@@ -5,8 +5,6 @@ function Navbar() {
 
     const [menu, setMenu] = useState(false);
 
-    console.log(menu);
-
     let navMenu;
 
     if(menu === true) {
